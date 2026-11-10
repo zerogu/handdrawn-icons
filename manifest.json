@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "styles": [
+    {
+      "id": "hand-drawn",
+      "description": "Black-and-white hand-drawn light-dimensional illustrations",
+      "versions": [
+        {
+          "id": "v1",
+          "status": "pending-assets",
+          "icons": [
+            {
+              "id": "code",
+              "src": "assets/hand-drawn/v1/code.webp",
+              "available": false
+            },
+            {
+              "id": "search",
+              "src": "assets/hand-drawn/v1/search.webp",
+              "available": false
+            },
+            {
+              "id": "knowledge",
+              "src": "assets/hand-drawn/v1/knowledge.webp",
+              "available": false
+            },
+            {
+              "id": "analytics",
+              "src": "assets/hand-drawn/v1/analytics.webp",
+              "available": false
+            },
+            {
+              "id": "agent",
+              "src": "assets/hand-drawn/v1/agent.webp",
+              "available": false
+            },
+            {
+              "id": "writing",
+              "src": "assets/hand-drawn/v1/writing.webp",
+              "available": false
+            },
+            {
+              "id": "workflow",
+              "src": "assets/hand-drawn/v1/workflow.webp",
+              "available": false
+            },
+            {
+              "id": "creative",
+              "src": "assets/hand-drawn/v1/creative.webp",
+              "available": false
+            },
+            {
+              "id": "data",
+              "src": "assets/hand-drawn/v1/data.webp",
+              "available": false
+            },
+            {
+              "id": "security",
+              "src": "assets/hand-drawn/v1/security.webp",
+              "available": false
+            },
+            {
+              "id": "translate",
+              "src": "assets/hand-drawn/v1/translate.webp",
+              "available": false
+            },
+            {
+              "id": "automate",
+              "src": "assets/hand-drawn/v1/automate.webp",
+              "available": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
