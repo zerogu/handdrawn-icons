@@ -9,7 +9,7 @@ Hand-drawn, lightly dimensional icons for AI skills, agents, workflows and web i
 - 黑白粗线条、圆润且略微不规则的手绘轮廓
 - 有适度的实心黑色区域、结构层次与物体辨识度
 - 图标本身使用透明背景，底色由使用方配置
-- 不要批量添加右上角三条装饰线
+- 保留原始手绘风格中的三条短装饰线，让图标更有生气
 - 必须保留图案完整轮廓和安全留白，尤其是底部
 - 目标展示尺寸：32 / 40 / 48 / 64 px
 
@@ -34,7 +34,7 @@ examples/
 STYLE_GUIDE.md
 ```
 
-> **当前状态：** 仓库先初始化规范和 React 使用方式。首批 12 张 WebP 尚待完整性与透明背景检查，避免发布先前裁切时出现底部缺边的版本。资源与清单会在素材验收后补齐。
+> **当前状态：** 第一批 6 张独立图标（agent、translate、code、knowledge、data、security）已生成透明 PNG 母版及无损 WebP 并完成本地检查，目前尚未推送图片二进制到 GitHub；其余 6 张待设计。已准备好待导入的资源压缩包。请勿把 manifest 中标记为 unavailable 的图片当成可访问资源。
 
 ## React usage
 
@@ -65,3 +65,9 @@ STYLE_GUIDE.md
 ## License
 
 许可方案尚未确定。公开仓库不等于素材已采用开源许可证；如需第三方复用、再分发，请先明确授权。
+
+## First six artwork files (pending repository import)
+
+已制作以下六枚单独绘制的图标，并保留参考原稿的右上方短装饰线：`agent`, `translate`, `code`, `knowledge`, `data`, `security`。
+
+准备好 PNG 母版、lossless WebP 和卡片预览。将素材包解压到仓库根目录，再执行 `git add assets sources preview`、提交并推送。完成上传后才把 manifest 对应图标的 `available` 更新为 `true`。
