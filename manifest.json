@@ -7,12 +7,13 @@
       "versions": [
         {
           "id": "v1",
-          "status": "pending-assets",
+          "status": "artwork-prepared-awaiting-binary-upload",
           "icons": [
             {
               "id": "code",
               "src": "assets/hand-drawn/v1/code.webp",
-              "available": false
+              "available": false,
+              "productionReady": true
             },
             {
               "id": "search",
@@ -22,7 +23,8 @@
             {
               "id": "knowledge",
               "src": "assets/hand-drawn/v1/knowledge.webp",
-              "available": false
+              "available": false,
+              "productionReady": true
             },
             {
               "id": "analytics",
@@ -32,7 +34,8 @@
             {
               "id": "agent",
               "src": "assets/hand-drawn/v1/agent.webp",
-              "available": false
+              "available": false,
+              "productionReady": true
             },
             {
               "id": "writing",
@@ -52,17 +55,20 @@
             {
               "id": "data",
               "src": "assets/hand-drawn/v1/data.webp",
-              "available": false
+              "available": false,
+              "productionReady": true
             },
             {
               "id": "security",
               "src": "assets/hand-drawn/v1/security.webp",
-              "available": false
+              "available": false,
+              "productionReady": true
             },
             {
               "id": "translate",
               "src": "assets/hand-drawn/v1/translate.webp",
-              "available": false
+              "available": false,
+              "productionReady": true
             },
             {
               "id": "automate",
